@@ -2062,8 +2062,6 @@ module.exports = {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-
 __webpack_require__(/*! ./main.js */ "./resources/js/main.js");
 
 __webpack_require__(/*! ./wow.min */ "./resources/js/wow.min.js");
@@ -2123,9 +2121,9 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 
 
     if (ud_header.classList.contains("sticky")) {
-      logo.src = "../../public/images/logo/logo.svg";
+      logo.src = "assets/images/logo/logo.svg";
     } else {
-      logo.src = "../../public/images/logo/logo-white.svg";
+      logo.src = "assets/images/logo/logo-white.svg";
     } // show or hide the back-top-top button
 
 
