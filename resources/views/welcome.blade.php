@@ -12,7 +12,8 @@
       href="{{asset('images/favicon.png')}}"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="{{mix('css/app.css')}}"/>
+    <link rel="stylesheet" href="{{asset('css/animate.css')}}"/>
+    <link rel="stylesheet" href="{{asset('css/tailwind.css')}}"/>
 
     <!-- ==== WOW JS ==== -->
     <script src="{{asset('js/wow.min.js')}}"></script>
@@ -6531,7 +6532,7 @@
 
     <!-- ====== All Scripts -->
 
-    <script src="{{asset('js/main.js')}}" type="text/javascript"></script>
+    <script src="{{asset('js/main.js')}}"></script>
     <script>
       // ==== for menu scroll
       const pageLink = document.querySelectorAll(".ud-menu-scroll");
