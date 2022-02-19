@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="{{mix('css/app.css')}}"/>
 
     <!-- ==== WOW JS ==== -->
-    <script src="{{mix('js/app.js')}}"></script>
+    {{-- <script src="{{mix('js/app.js')}}" type="text/javascript"></script> --}}
     <script>
       new WOW().init();
     </script>
@@ -6531,7 +6531,7 @@
 
     <!-- ====== All Scripts -->
 
-    <script src="{{mix('js/app.js')}}"></script>
+    <script src="{{mix('js/app.js')}}" type="text/javascript"></script>
     <script>
       // ==== for menu scroll
       const pageLink = document.querySelectorAll(".ud-menu-scroll");
