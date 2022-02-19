@@ -6531,7 +6531,7 @@
 
     <!-- ====== All Scripts -->
 
-    <script src="{{asset('/js/main.js')}}"></script>
+    <script src="{{mix('js/app.js')}}"></script>
     <script>
       // ==== for menu scroll
       const pageLink = document.querySelectorAll(".ud-menu-scroll");
