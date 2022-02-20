@@ -280,7 +280,7 @@
                         Pricing Page
                       </a>
                       <a
-                        href="contact.html"
+                        href="/contact"
                         class="
                           block
                           text-sm text-body-color
