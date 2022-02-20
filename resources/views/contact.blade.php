@@ -252,7 +252,7 @@
                       "
                     >
                       <a
-                        href="about.html"
+                        href="/about"
                         class="
                           block
                           text-sm text-body-color
@@ -291,7 +291,7 @@
                         Contact Page
                       </a>
                       <a
-                        href="blog-grids.html"
+                        href="/blog-grids"
                         class="
                           block
                           text-sm text-body-color
@@ -304,7 +304,7 @@
                         Blog Grid Page
                       </a>
                       <a
-                        href="blog-details.html"
+                        href="/blog-details"
                         class="
                           block
                           text-sm text-body-color
@@ -317,7 +317,7 @@
                         Blog Details Page
                       </a>
                       <a
-                        href="signup.html"
+                        href="/signup"
                         class="
                           block
                           text-sm text-body-color
@@ -330,7 +330,7 @@
                         Sign Up Page
                       </a>
                       <a
-                        href="signin.html"
+                        href="/signin"
                         class="
                           block
                           text-sm text-body-color
@@ -343,7 +343,7 @@
                         Sign In Page
                       </a>
                       <a
-                        href="404.html"
+                        href="/404"
                         class="
                           block
                           text-sm text-body-color
@@ -362,7 +362,7 @@
             </div>
             <div class="sm:flex justify-end hidden pr-16 lg:pr-0">
               <a
-                href="signin.html"
+                href="/signin"
                 class="
                   text-base
                   font-medium
@@ -376,7 +376,7 @@
                 Sign In
               </a>
               <a
-                href="signup.html"
+                href="/signup"
                 class="
                   text-base
                   font-medium

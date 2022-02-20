@@ -27,8 +27,8 @@ Route::view('/blog-grids', 'blog-grids');
 
 Route::view('/blog-details', 'blog-details');
 
-Route::view('/sign-up', 'sign-up');
+Route::view('/signup', 'signup');
 
-Route::view('/sign-in', 'sign-in');
+Route::view('/signin', 'signin');
 
 Route::view('/404', '404');
