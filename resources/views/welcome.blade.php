@@ -267,7 +267,7 @@
                         About Page
                       </a>
                       <a
-                        href="pricing.html"
+                        href="/pricing"
                         class="
                           block
                           text-sm text-body-color

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact | Play Tailwind</title>
+    <title>Pricing | Play Tailwind</title>
     <link
       rel="shortcut icon"
       href="{{asset('/images/favicon.png')}}"
@@ -39,7 +39,7 @@
           <div class="px-4 w-60 max-w-full">
             <a href="/" class="navbar-logo w-full block py-5">
               <img
-                src="{{asset('/images/logo/logo-white.svg')}}"
+              src="{{asset('/images/logo/logo-white.svg')}}"
                 alt="logo"
                 class="w-full header-logo"
               />
@@ -417,7 +417,7 @@
         <div class="flex flex-wrap items-center -mx-4">
           <div class="w-full px-4">
             <div class="text-center">
-              <h1 class="font-semibold text-white text-4xl">Contact Page</h1>
+              <h1 class="font-semibold text-white text-4xl">Pricing Page</h1>
             </div>
           </div>
         </div>
@@ -490,207 +490,882 @@
     </div>
     <!-- ====== Banner Section End -->
 
-    <!-- ====== Contact Start ====== -->
-    <section id="contact" class="ud-contact py-20 md:py-[120px] relative">
-      <div
-        class="
-          absolute
-          z-[-1]
-          w-full
-          h-1/2
-          lg:h-[45%]
-          xl:h-1/2
-          bg-[#f3f4fe]
-          top-0
-          left-0
-        "
-      ></div>
-      <div class="container px-4">
-        <div class="flex flex-wrap items-center -mx-4">
-          <div class="px-4 w-full lg:w-7/12 xl:w-8/12">
-            <div class="ud-contact-content-wrapper">
-              <div class="ud-contact-title mb-12 lg:mb-[150px]">
-                <span
-                  class="
-                    font-headingFont
-                    text-dark
-                    font-semibold
-                    text-base
-                    mb-5
-                  "
-                >
-                  CONTACT US
-                </span>
-                <h2 class="text-[35px] font-semibold">
-                  Let's talk about <br />
-                  Love to hear from you!
-                </h2>
-              </div>
-              <div class="flex flex-wrap justify-between mb-12 lg:mb-0">
-                <div class="flex max-w-full w-[330px] mb-8">
-                  <div class="text-[32px] text-primary mr-6">
-                    <svg
-                      width="29"
-                      height="35"
-                      viewBox="0 0 29 35"
-                      class="fill-current"
-                    >
-                      <path
-                        d="M14.5 0.710938C6.89844 0.710938 0.664062 6.72656 0.664062 14.0547C0.664062 19.9062 9.03125 29.5859 12.6406 33.5234C13.1328 34.0703 13.7891 34.3437 14.5 34.3437C15.2109 34.3437 15.8672 34.0703 16.3594 33.5234C19.9688 29.6406 28.3359 19.9062 28.3359 14.0547C28.3359 6.67188 22.1016 0.710938 14.5 0.710938ZM14.9375 32.2109C14.6641 32.4844 14.2812 32.4844 14.0625 32.2109C11.3828 29.3125 2.57812 19.3594 2.57812 14.0547C2.57812 7.71094 7.9375 2.625 14.5 2.625C21.0625 2.625 26.4219 7.76562 26.4219 14.0547C26.4219 19.3594 17.6172 29.2578 14.9375 32.2109Z"
-                      />
-                      <path
-                        d="M14.5 8.58594C11.2734 8.58594 8.59375 11.2109 8.59375 14.4922C8.59375 17.7188 11.2187 20.3984 14.5 20.3984C17.7812 20.3984 20.4062 17.7734 20.4062 14.4922C20.4062 11.2109 17.7266 8.58594 14.5 8.58594ZM14.5 18.4297C12.3125 18.4297 10.5078 16.625 10.5078 14.4375C10.5078 12.25 12.3125 10.4453 14.5 10.4453C16.6875 10.4453 18.4922 12.25 18.4922 14.4375C18.4922 16.625 16.6875 18.4297 14.5 18.4297Z"
-                      />
-                    </svg>
-                  </div>
-                  <div>
-                    <h5 class="text-lg font-semibold mb-6">Our Location</h5>
-                    <p class="text-base text-body-color">
-                      401 Broadway, 24th Floor, Orchard Cloud View, London
-                    </p>
-                  </div>
-                </div>
-                <div class="flex max-w-full w-[330px] mb-8">
-                  <div class="text-[32px] text-primary mr-6">
-                    <svg
-                      width="34"
-                      height="25"
-                      viewBox="0 0 34 25"
-                      class="fill-current"
-                    >
-                      <path
-                        d="M30.5156 0.960938H3.17188C1.42188 0.960938 0 2.38281 0 4.13281V20.9219C0 22.6719 1.42188 24.0938 3.17188 24.0938H30.5156C32.2656 24.0938 33.6875 22.6719 33.6875 20.9219V4.13281C33.6875 2.38281 32.2656 0.960938 30.5156 0.960938ZM30.5156 2.875C30.7891 2.875 31.0078 2.92969 31.2266 3.09375L17.6094 11.3516C17.1172 11.625 16.5703 11.625 16.0781 11.3516L2.46094 3.09375C2.67969 2.98438 2.89844 2.875 3.17188 2.875H30.5156ZM30.5156 22.125H3.17188C2.51562 22.125 1.91406 21.5781 1.91406 20.8672V5.00781L15.0391 12.9922C15.5859 13.3203 16.1875 13.4844 16.7891 13.4844C17.3906 13.4844 17.9922 13.3203 18.5391 12.9922L31.6641 5.00781V20.8672C31.7734 21.5781 31.1719 22.125 30.5156 22.125Z"
-                      />
-                    </svg>
-                  </div>
-                  <div>
-                    <h5 class="text-lg font-semibold mb-6">How Can We Help?</h5>
-                    <p class="text-base text-body-color">info@yourdomain.com</p>
-                    <p class="text-base text-body-color">
-                      contact@yourdomain.com
-                    </p>
-                  </div>
-                </div>
-              </div>
+    <!-- ====== Pricing Section Start -->
+    <section
+      id="pricing"
+      class="
+        bg-white
+        pt-20
+        lg:pt-[120px]
+        pb-12
+        lg:pb-[90px]
+        relative
+        z-20
+        overflow-hidden
+      "
+    >
+      <div class="container">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full px-4">
+            <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[620px]">
+              <span class="font-semibold text-lg text-primary mb-2 block">
+                Pricing Table
+              </span>
+              <h2
+                class="
+                  font-bold
+                  text-3xl
+                  sm:text-4xl
+                  md:text-[40px]
+                  text-dark
+                  mb-4
+                "
+              >
+                Our Pricing Plan
+              </h2>
+              <p
+                class="
+                  text-lg
+                  sm:text-xl
+                  leading-relaxed
+                  sm:leading-relaxed
+                  text-body-color
+                "
+              >
+                There are many variations of passages of Lorem Ipsum available
+                but the majority have suffered alteration in some form.
+              </p>
             </div>
           </div>
-          <div class="px-4 w-full lg:w-5/12 xl:w-4/12">
+        </div>
+
+        <div class="flex flex-wrap items-center justify-center">
+          <div class="w-full md:w-1/2 lg:w-1/3">
             <div
               class="
-                shadow-testimonial
-                rounded-lg
                 bg-white
+                rounded-xl
+                relative
+                z-10
+                overflow-hidden
+                border border-primary border-opacity-20
+                shadow-pricing
                 py-10
                 px-8
-                md:p-[60px]
-                lg:p-10
-                2xl:p-[60px]
-                sm:py-12 sm:px-10
-                lg:py-12 lg:px-10
+                sm:p-12
+                lg:py-10 lg:px-6
+                xl:p-12
+                mb-10
+                text-center
                 wow
                 fadeInUp
               "
-              data-wow-delay=".2s"
+              data-wow-delay=".15s
+              "
             >
-              <h3 class="font-semibold mb-8 text-2xl md:text-[26px]">
-                Send us a Message
-              </h3>
-              <form>
-                <div class="mb-6">
-                  <label for="fullName" class="block text-xs text-dark"
-                    >Full Name*</label
-                  >
-                  <input
-                    type="text"
-                    name="fullName"
-                    placeholder="Adam Gelius"
-                    class="
-                      w-full
-                      border-0 border-b border-[#f1f1f1]
-                      focus:border-primary focus:outline-none
-                      py-4
-                    "
-                  />
-                </div>
-                <div class="mb-6">
-                  <label for="email" class="block text-xs text-dark"
-                    >Email*</label
-                  >
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="example@yourmail.com"
-                    class="
-                      w-full
-                      border-0 border-b border-[#f1f1f1]
-                      focus:border-primary focus:outline-none
-                      py-4
-                    "
-                  />
-                </div>
-                <div class="mb-6">
-                  <label for="phone" class="block text-xs text-dark"
-                    >Phone*</label
-                  >
-                  <input
-                    type="text"
-                    name="phone"
-                    placeholder="+885 1254 5211 552"
-                    class="
-                      w-full
-                      border-0 border-b border-[#f1f1f1]
-                      focus:border-primary focus:outline-none
-                      py-4
-                    "
-                  />
-                </div>
-                <div class="mb-6">
-                  <label for="message" class="block text-xs text-dark"
-                    >Message*</label
-                  >
-                  <textarea
-                    name="message"
-                    rows="1"
-                    placeholder="type your message here"
-                    class="
-                      w-full
-                      border-0 border-b border-[#f1f1f1]
-                      focus:border-primary focus:outline-none
-                      py-4
-                      resize-none
-                    "
-                  ></textarea>
-                </div>
-                <div class="mb-0">
-                  <button
-                    type="submit"
-                    class="
-                      inline-flex
-                      items-center
-                      justify-center
-                      py-4
-                      px-6
-                      rounded
-                      text-white
-                      bg-primary
-                      text-base
-                      font-medium
-                      hover:bg-dark
-                      transition
-                      duration-300
-                      ease-in-out
-                    "
-                  >
-                    Send Message
-                  </button>
-                </div>
-              </form>
+              <span
+                class="text-dark font-medium text-base uppercase block mb-2"
+              >
+                STARTING FROM
+              </span>
+              <h2 class="font-semibold text-primary mb-9 text-[28px]">
+                € 19.99/mo
+              </h2>
+
+              <div class="mb-10">
+                <p
+                  class="
+                    text-base
+                    font-medium
+                    text-body-color
+                    leading-loose
+                    mb-1
+                  "
+                >
+                  1 User
+                </p>
+                <p
+                  class="
+                    text-base
+                    font-medium
+                    text-body-color
+                    leading-loose
+                    mb-1
+                  "
+                >
+                  All UI components
+                </p>
+                <p
+                  class="
+                    text-base
+                    font-medium
+                    text-body-color
+                    leading-loose
+                    mb-1
+                  "
+                >
+                  Lifetime access
+                </p>
+                <p
+                  class="
+                    text-base
+                    font-medium
+                    text-body-color
+                    leading-loose
+                    mb-1
+                  "
+                >
+                  Free updates
+                </p>
+                <p
+                  class="
+                    text-base
+                    font-medium
+                    text-body-color
+                    leading-loose
+                    mb-1
+                  "
+                >
+                  Use on 1 (one) project
+                </p>
+                <p
+                  class="
+                    text-base
+                    font-medium
+                    text-body-color
+                    leading-loose
+                    mb-1
+                  "
+                >
+                  3 Months support
+                </p>
+              </div>
+              <div class="w-full">
+                <a
+                  href="javascript:void(0)"
+                  class="
+                    inline-block
+                    text-base
+                    font-medium
+                    text-primary
+                    bg-transparent
+                    border border-[#D4DEFF]
+                    rounded-full
+                    text-center
+                    py-4
+                    px-11
+                    hover:text-white hover:bg-primary hover:border-primary
+                    transition
+                    duration-300
+                    ease-in-out
+                  "
+                >
+                  Purchase Now
+                </a>
+              </div>
+              <span
+                class="
+                  absolute
+                  left-0
+                  bottom-0
+                  z-[-1]
+                  w-14
+                  h-14
+                  rounded-tr-full
+                  block
+                  bg-primary
+                "
+              >
+              </span>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3">
+            <div
+              class="
+                bg-primary bg-gradient-to-b
+                from-primary
+                to-[#179BEE]
+                rounded-xl
+                relative
+                z-10
+                overflow-hidden
+                shadow-pricing
+                py-10
+                px-8
+                sm:p-12
+                lg:py-10 lg:px-6
+                xl:p-12
+                mb-10
+                text-center
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".1s
+              "
+            >
+              <span
+                class="
+                  inline-block
+                  py-2
+                  px-6
+                  border border-white
+                  rounded-full
+                  text-base
+                  font-semibold
+                  text-primary
+                  bg-white
+                  uppercase
+                  mb-5
+                "
+              >
+                POPULAR
+              </span>
+              <span
+                class="text-white font-medium text-base uppercase block mb-2"
+              >
+                STARTING FROM
+              </span>
+              <h2 class="font-semibold text-white mb-9 text-[28px]">
+                € 19.99/mo
+              </h2>
+
+              <div class="mb-10">
+                <p class="text-base font-medium text-white leading-loose mb-1">
+                  5 User
+                </p>
+                <p class="text-base font-medium text-white leading-loose mb-1">
+                  All UI components
+                </p>
+                <p class="text-base font-medium text-white leading-loose mb-1">
+                  Lifetime access
+                </p>
+                <p class="text-base font-medium text-white leading-loose mb-1">
+                  Free updates
+                </p>
+                <p class="text-base font-medium text-white leading-loose mb-1">
+                  Use on 1 (one) project
+                </p>
+                <p class="text-base font-medium text-white leading-loose mb-1">
+                  4 Months support
+                </p>
+              </div>
+              <div class="w-full">
+                <a
+                  href="javascript:void(0)"
+                  class="
+                    inline-block
+                    text-base
+                    font-medium
+                    text-dark
+                    bg-white
+                    border border-white
+                    rounded-full
+                    text-center
+                    py-4
+                    px-11
+                    hover:text-white hover:bg-dark hover:border-dark
+                    transition
+                    duration-300
+                    ease-in-out
+                  "
+                >
+                  Purchase Now
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 lg:w-1/3">
+            <div
+              class="
+                bg-white
+                rounded-xl
+                relative
+                z-10
+                overflow-hidden
+                border border-primary border-opacity-20
+                shadow-pricing
+                py-10
+                px-8
+                sm:p-12
+                lg:py-10 lg:px-6
+                xl:p-12
+                mb-10
+                text-center
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".15s
+              "
+            >
+              <span
+                class="text-dark font-medium text-base uppercase block mb-2"
+              >
+                STARTING FROM
+              </span>
+              <h2 class="font-semibold text-primary mb-9 text-[28px]">
+                € 70.99/mo
+              </h2>
+
+              <div class="mb-10">
+                <p
+                  class="
+                    text-base
+                    font-medium
+                    text-body-color
+                    leading-loose
+                    mb-1
+                  "
+                >
+                  1 User
+                </p>
+                <p
+                  class="
+                    text-base
+                    font-medium
+                    text-body-color
+                    leading-loose
+                    mb-1
+                  "
+                >
+                  All UI components
+                </p>
+                <p
+                  class="
+                    text-base
+                    font-medium
+                    text-body-color
+                    leading-loose
+                    mb-1
+                  "
+                >
+                  Lifetime access
+                </p>
+                <p
+                  class="
+                    text-base
+                    font-medium
+                    text-body-color
+                    leading-loose
+                    mb-1
+                  "
+                >
+                  Free updates
+                </p>
+                <p
+                  class="
+                    text-base
+                    font-medium
+                    text-body-color
+                    leading-loose
+                    mb-1
+                  "
+                >
+                  Use on unlimited project
+                </p>
+                <p
+                  class="
+                    text-base
+                    font-medium
+                    text-body-color
+                    leading-loose
+                    mb-1
+                  "
+                >
+                  4 Months support
+                </p>
+              </div>
+              <div class="w-full">
+                <a
+                  href="javascript:void(0)"
+                  class="
+                    inline-block
+                    text-base
+                    font-medium
+                    text-primary
+                    bg-transparent
+                    border border-[#D4DEFF]
+                    rounded-full
+                    text-center
+                    py-4
+                    px-11
+                    hover:text-white hover:bg-primary hover:border-primary
+                    transition
+                    duration-300
+                    ease-in-out
+                  "
+                >
+                  Purchase Now
+                </a>
+              </div>
+
+              <span
+                class="
+                  absolute
+                  right-0
+                  top-0
+                  z-[-1]
+                  w-14
+                  h-14
+                  rounded-bl-full
+                  block
+                  bg-secondary
+                "
+              >
+              </span>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- ====== Contact End ====== -->
+    <!-- ====== Pricing Section End -->
+
+    <!-- ====== Faq Section Start -->
+    <section
+      class="
+        bg-[#f3f4ff]
+        pt-20
+        lg:pt-[120px]
+        pb-12
+        lg:pb-[90px]
+        relative
+        z-20
+        overflow-hidden
+      "
+    >
+      <div class="container">
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full px-4">
+            <div class="text-center mx-auto mb-[60px] lg:mb-20 max-w-[620px]">
+              <span class="font-semibold text-lg text-primary mb-2 block">
+                FAQ
+              </span>
+              <h2
+                class="
+                  font-bold
+                  text-3xl
+                  sm:text-4xl
+                  md:text-[42px]
+                  text-dark
+                  mb-4
+                "
+              >
+                Any Questions? Answered
+              </h2>
+              <p
+                class="
+                  text-lg
+                  sm:text-xl
+                  leading-relaxed
+                  sm:leading-relaxed
+                  text-body-color
+                "
+              >
+                There are many variations of passages of Lorem Ipsum available
+                but the majority have suffered alteration in some form.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap -mx-4">
+          <div class="w-full lg:w-1/2 px-4">
+            <div
+              class="
+                single-faq
+                w-full
+                bg-white
+                border border-[#F3F4FE]
+                rounded-lg
+                p-5
+                sm:p-8
+                mb-8
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".1s
+              "
+            >
+              <button class="faq-btn flex items-center w-full text-left">
+                <div
+                  class="
+                    w-full
+                    max-w-[40px]
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    rounded-lg
+                    bg-primary
+                    text-primary
+                    bg-opacity-5
+                    mr-5
+                  "
+                >
+                  <svg
+                    width="17"
+                    height="10"
+                    viewBox="0 0 17 10"
+                    class="fill-current icon"
+                  >
+                    <path
+                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                      fill="#3056D3"
+                      stroke="#3056D3"
+                    />
+                  </svg>
+                </div>
+                <div class="w-full">
+                  <h4 class="text-base sm:text-lg font-semibold text-black">
+                    How to use UIdeck?
+                  </h4>
+                </div>
+              </button>
+              <div class="faq-content pl-[62px] hidden">
+                <p class="text-base text-body-color leading-relaxed py-3">
+                  It takes 2-3 weeks to get your first blog post ready. That
+                  includes the in-depth research & creation of your monthly
+                  content marketing strategy that we do before writing your
+                  first blog post, Ipsum available .
+                </p>
+              </div>
+            </div>
+            <div
+              class="
+                single-faq
+                w-full
+                bg-white
+                border border-[#F3F4FE]
+                rounded-lg
+                p-5
+                sm:p-8
+                mb-8
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".15s
+              "
+            >
+              <button class="faq-btn flex items-center w-full text-left">
+                <div
+                  class="
+                    w-full
+                    max-w-[40px]
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    rounded-lg
+                    bg-primary
+                    text-primary
+                    bg-opacity-5
+                    mr-5
+                  "
+                >
+                  <svg
+                    width="17"
+                    height="10"
+                    viewBox="0 0 17 10"
+                    class="fill-current icon"
+                  >
+                    <path
+                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                      fill="#3056D3"
+                      stroke="#3056D3"
+                    />
+                  </svg>
+                </div>
+                <div class="w-full">
+                  <h4 class="text-base sm:text-lg font-semibold text-black">
+                    How to download icons from LineIcons?
+                  </h4>
+                </div>
+              </button>
+              <div class="faq-content pl-[62px] hidden">
+                <p class="text-base text-body-color leading-relaxed py-3">
+                  It takes 2-3 weeks to get your first blog post ready. That
+                  includes the in-depth research & creation of your monthly
+                  content marketing strategy that we do before writing your
+                  first blog post, Ipsum available .
+                </p>
+              </div>
+            </div>
+            <div
+              class="
+                single-faq
+                w-full
+                bg-white
+                border border-[#F3F4FE]
+                rounded-lg
+                p-5
+                sm:p-8
+                mb-8
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".2s
+              "
+            >
+              <button class="faq-btn flex items-center w-full text-left">
+                <div
+                  class="
+                    w-full
+                    max-w-[40px]
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    rounded-lg
+                    bg-primary
+                    text-primary
+                    bg-opacity-5
+                    mr-5
+                  "
+                >
+                  <svg
+                    width="17"
+                    height="10"
+                    viewBox="0 0 17 10"
+                    class="fill-current icon"
+                  >
+                    <path
+                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                      fill="#3056D3"
+                      stroke="#3056D3"
+                    />
+                  </svg>
+                </div>
+                <div class="w-full">
+                  <h4 class="text-base sm:text-lg font-semibold text-black">
+                    Is GrayGrids part of UIdeck?
+                  </h4>
+                </div>
+              </button>
+              <div class="faq-content pl-[62px] hidden">
+                <p class="text-base text-body-color leading-relaxed py-3">
+                  It takes 2-3 weeks to get your first blog post ready. That
+                  includes the in-depth research & creation of your monthly
+                  content marketing strategy that we do before writing your
+                  first blog post, Ipsum available .
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="w-full lg:w-1/2 px-4">
+            <div
+              class="
+                single-faq
+                w-full
+                bg-white
+                border border-[#F3F4FE]
+                rounded-lg
+                p-5
+                sm:p-8
+                mb-8
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".1s
+              "
+            >
+              <button class="faq-btn flex items-center w-full text-left">
+                <div
+                  class="
+                    w-full
+                    max-w-[40px]
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    rounded-lg
+                    bg-primary
+                    text-primary
+                    bg-opacity-5
+                    mr-5
+                  "
+                >
+                  <svg
+                    width="17"
+                    height="10"
+                    viewBox="0 0 17 10"
+                    class="fill-current icon"
+                  >
+                    <path
+                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                      fill="#3056D3"
+                      stroke="#3056D3"
+                    />
+                  </svg>
+                </div>
+                <div class="w-full">
+                  <h4 class="text-base sm:text-lg font-semibold text-black">
+                    Can I use this template for commercial project?
+                  </h4>
+                </div>
+              </button>
+              <div class="faq-content pl-[62px] hidden">
+                <p class="text-base text-body-color leading-relaxed py-3">
+                  It takes 2-3 weeks to get your first blog post ready. That
+                  includes the in-depth research & creation of your monthly
+                  content marketing strategy that we do before writing your
+                  first blog post, Ipsum available .
+                </p>
+              </div>
+            </div>
+            <div
+              class="
+                single-faq
+                w-full
+                bg-white
+                border border-[#F3F4FE]
+                rounded-lg
+                p-5
+                sm:p-8
+                mb-8
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".15s
+              "
+            >
+              <button class="faq-btn flex items-center w-full text-left">
+                <div
+                  class="
+                    w-full
+                    max-w-[40px]
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    rounded-lg
+                    bg-primary
+                    text-primary
+                    bg-opacity-5
+                    mr-5
+                  "
+                >
+                  <svg
+                    width="17"
+                    height="10"
+                    viewBox="0 0 17 10"
+                    class="fill-current icon"
+                  >
+                    <path
+                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                      fill="#3056D3"
+                      stroke="#3056D3"
+                    />
+                  </svg>
+                </div>
+                <div class="w-full">
+                  <h4 class="text-base sm:text-lg font-semibold text-black">
+                    Do you have plan to releasing Play Pro?
+                  </h4>
+                </div>
+              </button>
+              <div class="faq-content pl-[62px] hidden">
+                <p class="text-base text-body-color leading-relaxed py-3">
+                  It takes 2-3 weeks to get your first blog post ready. That
+                  includes the in-depth research & creation of your monthly
+                  content marketing strategy that we do before writing your
+                  first blog post, Ipsum available .
+                </p>
+              </div>
+            </div>
+            <div
+              class="
+                single-faq
+                w-full
+                bg-white
+                border border-[#F3F4FE]
+                rounded-lg
+                p-5
+                sm:p-8
+                mb-8
+                wow
+                fadeInUp
+              "
+              data-wow-delay=".2s
+              "
+            >
+              <button class="faq-btn flex items-center w-full text-left">
+                <div
+                  class="
+                    w-full
+                    max-w-[40px]
+                    h-10
+                    flex
+                    items-center
+                    justify-center
+                    rounded-lg
+                    bg-primary
+                    text-primary
+                    bg-opacity-5
+                    mr-5
+                  "
+                >
+                  <svg
+                    width="17"
+                    height="10"
+                    viewBox="0 0 17 10"
+                    class="fill-current icon"
+                  >
+                    <path
+                      d="M7.28687 8.43257L7.28679 8.43265L7.29496 8.43985C7.62576 8.73124 8.02464 8.86001 8.41472 8.86001C8.83092 8.86001 9.22376 8.69083 9.53447 8.41713L9.53454 8.41721L9.54184 8.41052L15.7631 2.70784L15.7691 2.70231L15.7749 2.69659C16.0981 2.38028 16.1985 1.80579 15.7981 1.41393C15.4803 1.1028 14.9167 1.00854 14.5249 1.38489L8.41472 7.00806L2.29995 1.38063L2.29151 1.37286L2.28271 1.36548C1.93092 1.07036 1.38469 1.06804 1.03129 1.41393L1.01755 1.42738L1.00488 1.44184C0.69687 1.79355 0.695778 2.34549 1.0545 2.69659L1.05999 2.70196L1.06565 2.70717L7.28687 8.43257Z"
+                      fill="#3056D3"
+                      stroke="#3056D3"
+                    />
+                  </svg>
+                </div>
+                <div class="w-full">
+                  <h4 class="text-base sm:text-lg font-semibold text-black">
+                    Where and how to host this template?
+                  </h4>
+                </div>
+              </button>
+              <div class="faq-content pl-[62px] hidden">
+                <p class="text-base text-body-color leading-relaxed py-3">
+                  It takes 2-3 weeks to get your first blog post ready. That
+                  includes the in-depth research & creation of your monthly
+                  content marketing strategy that we do before writing your
+                  first blog post, Ipsum available .
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="absolute bottom-0 right-0 z-[-1]">
+        <svg
+          width="1440"
+          height="886"
+          viewBox="0 0 1440 886"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            opacity="0.5"
+            d="M193.307 -273.321L1480.87 1014.24L1121.85 1373.26C1121.85 1373.26 731.745 983.231 478.513 729.927C225.976 477.317 -165.714 85.6993 -165.714 85.6993L193.307 -273.321Z"
+            fill="url(#paint0_linear)"
+          />
+          <defs>
+            <linearGradient
+              id="paint0_linear"
+              x1="1308.65"
+              y1="1142.58"
+              x2="602.827"
+              y2="-418.681"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#3056D3" stop-opacity="0.36" />
+              <stop offset="1" stop-color="#F5F2FD" stop-opacity="0" />
+              <stop offset="1" stop-color="#F5F2FD" stop-opacity="0.096144" />
+            </linearGradient>
+          </defs>
+        </svg>
+      </div>
+    </section>
+    <!-- ====== Faq Section End -->
 
     <!-- ====== Footer Section Start -->
     <footer
